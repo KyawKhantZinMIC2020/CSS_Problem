@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MyPhoneShop</title>
+</head>
+
+<style>
+
+	body
+	{
+		font-family: Tahoma, Geneva, sans-serif;
+		color: #111;
+		background: #dcdcdc;
+		line-height: 23px;
+		letter-spacing:1px;			
+	}
+
+	/*section
+	{
+		width:100%;
+		height:100vh;
+		background-position: center;
+		}*/
+		
+		header
+		{
+			padding:0 10px;
+			width:100%;
+			height:70px;
+			box-sizing:border-box;
+			background:rgba(255,255,255,.2);
+			box-shadow:0 5px 7px skyblue; 
+			transition:.5s;
+		}
+		
+		ul
+		{
+			position:relative;
+			margin:0;
+			padding:0;
+			display:flex;
+			float:right;
+			transition:.5s;
+		}
+		
+		ul li
+		{
+			list-style:none;
+		}
+		
+		ul li a
+		{
+			position:relative;
+			display:block;
+			padding:10px 20px;
+			margin:20px 0;
+			text-transform:uppercase;
+			text-decoration:none;
+			color:#339;
+			font-weight:bold;
+			transition:.5s;
+		}
+		
+		ul li a:hover
+		{
+			background: #9CC;
+			color:#339;
+			border-radius:10px;
+		}
+		
+		
+		
+		
+		@media (max-width:992px)
+		{
+			
+			header
+			{
+				padding:0 0;
+				background:rgba(255,255,255,.5);
+			}
+			
+			header ul
+			{
+				width:100%;
+				top:-4px;
+				display:block;
+			}
+			header ul li a
+			{
+				margin:0;
+				display:block;
+				text-align:center;
+				color:#ffff;
+				background:rgba(0,0,0,0.5);
+			}
+
+
+		}
+
+		.bg-transparent{
+			background:url(ss.png);
+			background-repeat:no-repeat;
+			background-size:cover;
+			width: 100%;
+			height:500px;
+			padding:40px;
+		}
+		.text
+		{
+			background-color:rgba(0,0,0,0.7);
+			width:85%;
+			margin:60px;
+			padding: 30px 15px;
+			-webkit-box-shadow: -4px 4px 8px 0 rgba(0,0,0,0.5);
+			box-shadow: 1px 4px 4px 0 rgba(102,255,255,1);
+			border-radius:25px;
+			color:#FFF;
+		}
+		footer
+		{
+			position:fixed;
+			left:0;
+			bottom:0;
+			width:100%;
+			line-height:50px;
+			background-color:rgba(0,0,0,0.5);
+			color:yellow;
+			text-align:center;
+			display:block;
+
+		}
+
+	</style>
+	<body>
+		<section>
+			<header>
+				<ul class="active"> 
+					<li><a href="#">Moblies Phones</a></li>
+					<li><a href="#">Smart Phones</a></li>
+					<li><a href="#">CDMA Phones</a></li>
+					<li><a href="#">BRANCHES</a></li>
+
+				</ul>
+			</header>
+
+
+			<section class="bg-transparent">
+				<div class="container">			
+					<div class="text">
+						<h1>My Phone</h1>                                               
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>&nbsp;</p>
+
+						<div>
+							<img src="n10.jpg">
+						</div>                      
+						<ol>
+							<li value="1"><strong><u>Samsung Glalxy Note 10 Lite</u></strong></li>
+						</ol>
+						<p>In Myanmar, <strong>Samsung Glalxy Note 10 Lite</strong> Body: 163.7x76.1x8.7mm, 199g; aluminum frame; Aura Glow, Aura Black, Aura Red color schemes.
+							Screen: 6.7" Super AMOLED, 1080x2400px resolution; 20:9 aspect ratio; 394ppi; HDR support.
+							Chipset: Exynos 9810 (10nm): Octa-core (4x2.7GHz Mongoose M3 & 4x1.7GHz Cortex-A55); Mali-G72 MP18
+							Memory: 6/8GB RAM, 128GB built-in UFS 2.1 storage, shared microSD slot.
+							OS/Software: Android 10, One UI 2.0.
+							Rear camera: Wide (main): 12MP, 1/2.55" sensor, f/1.7 aperture, 27mm equiv. focal length, dual pixel PDAF, OIS. Telephoto: 12MP, 1/3.6", f/2.4, 52mm, PDAF, OIS. Ultra-wide: 12MP, f/2.2, 12mm (123° FoV), fixed focus.
+							Front camera: 32MP, f/2.2, 25mm, 1/2.8", 0.8µm, fixed focus; 2160p@30fps video recording.
+							Battery: 4,500mAh, 25W fast charging over Power Delivery 3.0 (25W charger supplied in the box).
+						Misc: S Pen stylus; optical under-display fingerprint reader; NFC; single bottom-firing loudspeaker. </p>
+						<p>&nbsp;</p>
+
+						<div>
+							<img src="s20.jpg">
+						</div>
+						<ol>
+							<li value="2"><strong><u>Samsung Galxy S20+</u></strong></li>
+						</ol>
+						<p> <strong>Samsung Galxy S20+</strong> Body: 163.7x76.1x8.7mm, 199g; aluminum frame; Aura Glow, Aura Black, Aura Red color schemes.
+							Screen: 6.7" Super AMOLED, 1080x2400px resolution; 20:9 aspect ratio; 394ppi; HDR support.
+							Chipset: Exynos 9810 (10nm): Octa-core (4x2.7GHz Mongoose M3 & 4x1.7GHz Cortex-A55); Mali-G72 MP18
+							Memory: 6/8GB RAM, 128GB built-in UFS 2.1 storage, shared microSD slot.
+							OS/Software: Android 10, One UI 2.0.
+							Rear camera: Wide (main): 12MP, 1/2.55" sensor, f/1.7 aperture, 27mm equiv. focal length, dual pixel PDAF, OIS. Telephoto: 12MP, 1/3.6", f/2.4, 52mm, PDAF, OIS. Ultra-wide: 12MP, f/2.2, 12mm (123° FoV), fixed focus.
+							Front camera: 32MP, f/2.2, 25mm, 1/2.8", 0.8µm, fixed focus; 2160p@30fps video recording.
+							Battery: 4,500mAh, 25W fast charging over Power Delivery 3.0 (25W charger supplied in the box).
+						Misc: S Pen stylus; optical under-display fingerprint reader; NFC; single bottom-firing loudspeaker. </p>
+						<p>&nbsp;</p>
+
+						<div>
+							<img src="zf.jpg">
+						</div> 
+
+						<ol> 
+							<li value="3"><strong><u>Samsung Glalxy Zflip</u></strong></li>
+						</ol>
+						<p><strong>Samsung Glaxy Zflip</strong> Body: 163.7x76.1x8.7mm, 199g; aluminum frame; Aura Glow, Aura Black, Aura Red color schemes.
+							Screen: 6.7" Super AMOLED, 1080x2400px resolution; 20:9 aspect ratio; 394ppi; HDR support.
+							Chipset: Exynos 9810 (10nm): Octa-core (4x2.7GHz Mongoose M3 & 4x1.7GHz Cortex-A55); Mali-G72 MP18
+							Memory: 6/8GB RAM, 128GB built-in UFS 2.1 storage, shared microSD slot.
+							OS/Software: Android 10, One UI 2.0.
+							Rear camera: Wide (main): 12MP, 1/2.55" sensor, f/1.7 aperture, 27mm equiv. focal length, dual pixel PDAF, OIS. Telephoto: 12MP, 1/3.6", f/2.4, 52mm, PDAF, OIS. Ultra-wide: 12MP, f/2.2, 12mm (123° FoV), fixed focus.
+							Front camera: 32MP, f/2.2, 25mm, 1/2.8", 0.8µm, fixed focus; 2160p@30fps video recording.
+							Battery: 4,500mAh, 25W fast charging over Power Delivery 3.0 (25W charger supplied in the box).
+						Misc: S Pen stylus; optical under-display fingerprint reader; NFC; single bottom-firing loudspeaker. </p>
+						<p>&nbsp;</p>
+
+						<div>
+							<img src="n10.jpg">
+						</div> 
+
+						<ol>
+							<li value="4"><strong><u>Samsung Glaxy A71</u></strong></li>
+						</ol>
+						<p><strong>Samsung Glaxy A71</strong> Body: 163.7x76.1x8.7mm, 199g; aluminum frame; Aura Glow, Aura Black, Aura Red color schemes.
+							Screen: 6.7" Super AMOLED, 1080x2400px resolution; 20:9 aspect ratio; 394ppi; HDR support.
+							Chipset: Exynos 9810 (10nm): Octa-core (4x2.7GHz Mongoose M3 & 4x1.7GHz Cortex-A55); Mali-G72 MP18
+							Memory: 6/8GB RAM, 128GB built-in UFS 2.1 storage, shared microSD slot.
+							OS/Software: Android 10, One UI 2.0.
+							Rear camera: Wide (main): 12MP, 1/2.55" sensor, f/1.7 aperture, 27mm equiv. focal length, dual pixel PDAF, OIS. Telephoto: 12MP, 1/3.6", f/2.4, 52mm, PDAF, OIS. Ultra-wide: 12MP, f/2.2, 12mm (123° FoV), fixed focus.
+							Front camera: 32MP, f/2.2, 25mm, 1/2.8", 0.8µm, fixed focus; 2160p@30fps video recording.
+							Battery: 4,500mAh, 25W fast charging over Power Delivery 3.0 (25W charger supplied in the box).
+						Misc: S Pen stylus; optical under-display fingerprint reader; NFC; single bottom-firing loudspeaker. </p>
+						<p>&nbsp;</p> <br>
+
+						<p> <strong>Where You can buy:</strong><br> 
+							Myin Pyan Pone-yay-gyi Shop<br>
+							Location: MhanKyo and Thirimingalar quarter,Naung-U Township
+							<br>
+							<br>
+							Zee Kwat Pone-yay-gyi Shop<br>
+							Location: Zaytan and Mhankyo quarter,Naung-U Township
+							<br>
+							<br>
+							Thanakha Shop<br>
+							Location: Naung-U Market,Naung-U Township
+							<br>
+							<br>
+							Palm sugar Shop<br>
+							Location: Naung-U Market,Naung-U Township
+							<br>
+							<br>
+							Chan Thar Lacquerware Workshop<br>
+							Location: Main Road, Myin Ka Par, Bagan.
+							<br>
+							<br>
+							Golden Bagan Lacquerware Shop<br>
+							Location: Khaye Main Road, New Bagan.
+							<br>
+							<br>
+							Ever Stand Lacquerware Workshop <br>
+							Location: Between Old Bagan & Nyaung-U,Wetkyi-in Village.
+
+						</p>		              
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="foot">
+			<center>
+				©2019 MyPhoneShop,All rights reserved
+			</center>
+		</div>
+	</footer>
+	</html>
